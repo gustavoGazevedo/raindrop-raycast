@@ -6,6 +6,8 @@ A Raycast extension for searching and browsing bookmarks from Raindrop.io.
 
 This extension provides a unified search interface for Raindrop.io bookmarks with collection-based filtering, rich result display, and infinite scroll pagination.
 
+> **Note:** This extension was created because no Windows version exists for the official Raindrop extension. This provides Windows users with a way to access their Raindrop.io bookmarks through Raycast.
+
 ## Authentication
 
 - **Method**: Test token authentication

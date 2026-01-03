@@ -2,6 +2,8 @@
 
 Search and browse your Raindrop.io bookmarks directly from Raycast.
 
+> **Note:** This extension was created because no Windows version exists for the official Raindrop extension. This provides Windows users with a way to access their Raindrop.io bookmarks through Raycast.
+
 ## Features
 
 - Search across all your bookmarks with full-text search
