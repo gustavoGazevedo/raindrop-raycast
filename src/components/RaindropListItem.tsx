@@ -73,7 +73,10 @@ export function RaindropListItem({
         </List.Item.Detail.Metadata.TagList>
       )}
       {collectionTitle && (
-        <List.Item.Detail.Metadata.Label title="Collection" text={collectionTitle} />
+        <List.Item.Detail.Metadata.Label
+          title="Collection"
+          text={collectionTitle}
+        />
       )}
       <List.Item.Detail.Metadata.Label title="Domain" text={raindrop.domain} />
       <List.Item.Detail.Metadata.Label title="Type" text={raindrop.type} />

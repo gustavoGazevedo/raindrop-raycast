@@ -2,9 +2,9 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "raindrop-search-for-windows",
   "title": "Raindrop Search for Windows",
-  "description": "Search your Raindrop.io bookmarks",
+  "description": "Search and browse your Raindrop.io bookmarks directly from Raycast",
   "icon": "extension-icon.png",
-  "author": "Gustavo Azevedo",
+  "author": "Vorm--",
   "categories": [
     "Productivity",
     "Web"
@@ -28,8 +28,8 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.87.0",
-    "@raycast/utils": "^1.17.0"
+    "@raycast/api": "^1.104.1",
+    "@raycast/utils": "^2.2.2"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.11",

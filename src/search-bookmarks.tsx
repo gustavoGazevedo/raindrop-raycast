@@ -45,10 +45,23 @@ Type these in the search box:
 - \`link:github.com type:link\` - GitHub links
 `;
 
-
 type FilterType = "collection" | "type" | "sort";
-type TypeFilter = "all" | "link" | "article" | "image" | "video" | "document" | "audio";
-type SortFilter = "relevance" | "-created" | "created" | "title" | "-title" | "domain" | "-domain";
+type TypeFilter =
+  | "all"
+  | "link"
+  | "article"
+  | "image"
+  | "video"
+  | "document"
+  | "audio";
+type SortFilter =
+  | "relevance"
+  | "-created"
+  | "created"
+  | "title"
+  | "-title"
+  | "domain"
+  | "-domain";
 
 export default function SearchBookmarks() {
   const [searchText, setSearchText] = useState("");

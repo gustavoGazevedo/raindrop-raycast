@@ -14,7 +14,15 @@ export interface GetRaindropsParams {
 export async function getRaindrops(
   params: GetRaindropsParams,
 ): Promise<RaindropsResponse> {
-  const { collectionId, search, page = 0, perpage = 25, sort, nested, type } = params;
+  const {
+    collectionId,
+    search,
+    page = 0,
+    perpage = 25,
+    sort,
+    nested,
+    type,
+  } = params;
 
   const queryParams: Record<string, string | number | boolean> = {
     page,
@@ -22,7 +30,7 @@ export async function getRaindrops(
   };
 
   let searchQuery = search || "";
-  
+
   if (type && type !== "all") {
     if (searchQuery && !searchQuery.includes("type:")) {
       searchQuery += ` type:${type}`;
